@@ -12,7 +12,7 @@ jobs:
     runs-on: pavan
     strategy: 
        max_parallel:4
-       python_version: [3.7]
+    python_version: [3.7]
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
